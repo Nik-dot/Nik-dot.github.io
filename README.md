@@ -1,4 +1,4 @@
-# icecat2012.github.io
+# nik-dot.github.io
 Personal website
 
 https://nik-dot.github.io.
