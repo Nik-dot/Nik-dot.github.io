@@ -354,6 +354,10 @@ html {
     color: #fff;
 }
 
+.menu .author-content p {
+    color: white;
+}
+
 .menu .social-network {
     margin-top: 20px;
 }

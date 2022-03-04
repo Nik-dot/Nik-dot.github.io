@@ -7,8 +7,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Personal website of Nicholas Nisopoli" />
+    <meta name="keywords" content="Nicholas Nisopoli, Artificial Intelligence, AI, Developer, Website">
+    <meta name="author" content="Nicholas Nicholas" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
@@ -20,6 +21,10 @@ Reflux Template
 https://templatemo.com/tm-531-reflux
 -->
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
@@ -27,6 +32,7 @@ https://templatemo.com/tm-531-reflux
     <link rel="stylesheet" href="assets/css/templatemo-style.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/projects.css" />
     <link rel="icon" href="/favicon.ico" sizes="any">
   </head>
 
@@ -39,7 +45,7 @@ https://templatemo.com/tm-531-reflux
           <i class="fa fa-times" id="menu-close"></i>
           <div class="container">
             <div class="image">
-              <a href="#"><img src="assets/images/Nicholas.png" alt="" /></a>
+              <a href="#"><img src="assets/images/author.png" alt="" /></a>
             </div>
             <div class="author-content">
               <h1>Nicholas Nisopoli</h1>
@@ -55,7 +61,7 @@ https://templatemo.com/tm-531-reflux
                 <li><a href="#section1">Home</a></li>
                 <li><a href="#section2">Publications</a></li>
                 <li><a href="#section3">Awards</a></li>
-                <li><a href="#section4">Skills</a></li>
+                <li><a href="#section4">Projects</a></li>
               </ul>
             </nav>
             <div class="social-network">
@@ -65,10 +71,10 @@ https://templatemo.com/tm-531-reflux
 </span></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/nicholas-nisopoli/"  target="_blank"><i class="icon scholar"></i><img src="assets/images/lkn.png"/></a>
+                  <a href="https://www.linkedin.com/in/nicholas-nisopoli/"  target="_blank"><i class="icon scholar"></i><img src="assets/images/lkdn.png"/></a>
                 </li>
                  <li>
-                  <a href="mailto:nicholas.nisopoli77@gmail.com"><i class="icon email"><img src="assets/images/mail.png"/></i></a>
+                  <a href="mailto:nicholas.nisopoli77@gmail.com"><i class="fa fa-envelope fa-4"></i></a>
                   </li>
               </ul>
             </div>
@@ -241,27 +247,53 @@ https://templatemo.com/tm-531-reflux
             <h7>Lion Club Genova Host, award for the essay “La rappresentazione del dono e la sua storia”</h7>
 
       </section>
+
+
       <section class="section my-services" data-section="section4">
-        <div class="container">
+        <div class="container" id="work">
           <div class="section-heading">
-            <h2>Skills</h2>
+            <h2>Projects</h2>
             <div class="line-dec"></div>
           </div>
-          <div class="row">
-              <div class="column">
-            <img src="assets/images/search.gif" class="icon myBadge">
-              </div>
-            <div class="column">
-            <img src="assets/images/NODEJS_CIRCLE.gif" class="icon myBadge">
-            </div>
-            <div class="column">
-            <img src="assets/images/giphy.gif" class="icon myBadge">
-                </div>
-          </div>
 
+          <div class="projects" id="work_section">
+            <a href="https://github.com/Nik-dot/Sudoku-AI-Solver" target="_blank">
+                <section>
+                    <div class="section_title">Sudoku AI Solver</div>
+                    <div class="about_section">
+                    <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/octocat.png?v8" class="emoji">A graphics tool to solve sudoku with Answer Set Programming</span>
+                    </div>
+                    <div class="bottom_section">
+                        <span style="display:inline-block;"><i class="fa fa-code"></i>&nbsp; Python, ASP</span>
+                    </div>
+                </section>
+                </a>
+            <a href="https://www.kaggle.com/nicholasnisopoli/song-popularity-prediction/notebook" target="_blank">
+                <section>
+                    <div class="section_title">Song Popularity Prediction</div>
+                    <div class="about_section">
+                    <span style="display:block;">Song popularity prediction using Randon Forest on Spotify data.</span>
+                    </div>
+                    <div class="bottom_section">
+                        <span style="display:inline-block;"><i class="fa fa-code"></i>&nbsp; Python</span>
+                    </div>
+                </section>
+                </a>
+                <a href="https://github.com/Nik-dot/Nik-dot.github.io" target="_blank">
+                    <section>
+                        <div class="section_title">Personal website</div>
+                        <div class="about_section">
+                        <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/octocat.png?v8" class="emoji"> personal website</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fa fa-code"></i>&nbsp; JavaScript, HTML, CSS</span>
+                        </div>
+                    </section>
+                    </a>
+
+          </div>
       </div>
       </section>
-
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
